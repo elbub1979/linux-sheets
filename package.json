@@ -1,0 +1,12 @@
+{
+  "name": "linux-ref",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Справочник Linux-команд — памятка DevOps",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "build": "node build.mjs",
+    "start": "python3 -m http.server 8090"
+  }
+}
